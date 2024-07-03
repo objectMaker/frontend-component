@@ -7,9 +7,9 @@ export default function FirstCard() {
         bg-gradient-to-b from-pink-500 to-purple-500
         flex justify-end "
         >
-          <div className="duration-200 ease-in-out rounded-[10px] m-[20px] w-[30px] h-[30px] bg-white flex justify-center items-center">
+          <div className="hover:rotate-12 hover:scale-110 duration-200 ease-in-out rounded-[10px] m-[20px] w-[30px] h-[30px] bg-white flex justify-center items-center">
             <svg
-              className="duration-200 ease-in-out w-[15px] h-[15px] hover:fill-[#ced8de] hover:rotate-12 hover:scale-110"
+              className="duration-200 ease-in-out w-[15px] h-[15px] hover:fill-[#ced8de]  "
               width="683"
               height="683"
               viewBox="0 0 683 683"
