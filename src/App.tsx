@@ -3,6 +3,7 @@ import CircleCheckbox from 'components/CircleCheckbox'
 import FirstCard from 'components/FirstCard'
 import Input from 'components/Input'
 import SquareCheckbox from 'components/SquareCheckbox'
+import Tooltip from 'components/Tooltip'
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <CircleCheckbox />
         <div className="h-5"></div>
         <SquareCheckbox />
+        <div className="h-5"></div>
+        <Tooltip />
       </div>
     </>
   )
