@@ -1,22 +1,22 @@
 export default function FirstCard() {
   return (
     <>
-      <div className="hover:cursor-pointer hover:shadow-lg hover:shadow-light-900  transition duration-200 ease-out w-[252px] h-[265px] bg-white rounded-[25px] shadow-xl shadow-gray-400/50 -shadow-xl -shadow-white/50">
+      <div className="hover:shadow-light-900 h-[265px] w-[252px]  rounded-[25px] bg-white shadow-xl shadow-gray-400/50 transition duration-200 ease-out hover:cursor-pointer hover:shadow-lg">
         <div
-          className="w-full h-1/2 rounded-tr-[30px] rounded-tl-[30px]
-        bg-gradient-to-b from-pink-500 to-purple-500
-        flex justify-end "
+          className="flex h-1/2 w-full justify-end
+        rounded-t-[30px] bg-gradient-to-b from-pink-500
+        to-purple-500 "
         >
-          <div className="hover:rotate-12 hover:scale-110 duration-200 ease-in-out rounded-[10px] m-[20px] w-[30px] h-[30px] bg-white flex justify-center items-center">
+          <div className="m-[20px] flex size-[30px] items-center justify-center rounded-[10px] bg-white duration-200 ease-in-out hover:rotate-12 hover:scale-110">
             <svg
-              className="duration-200 ease-in-out w-[15px] h-[15px] hover:fill-[#ced8de]  "
+              className="size-[15px] duration-200 ease-in-out hover:fill-[#ced8de]  "
               width="683"
               height="683"
               viewBox="0 0 683 683"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g clip-path="url(#clip0_993_25)">
+              <g clipPath="url(#clip0_993_25)">
                 <mask
                   id="mask0_993_25"
                   maskUnits="userSpaceOnUse"
@@ -34,10 +34,10 @@ export default function FirstCard() {
                   <path
                     d="M148.535 19.9999C137.179 19.9999 126.256 24.5092 118.223 32.5532C110.188 40.5866 105.689 51.4799 105.689 62.8439V633.382C105.689 649.556 118.757 662.667 134.931 662.667H135.039C143.715 662.667 151.961 659.218 158.067 653.09C186.451 624.728 270.212 540.966 304.809 506.434C314.449 496.741 327.623 491.289 341.335 491.289C355.045 491.289 368.22 496.741 377.859 506.434C412.563 541.074 496.752 625.242 524.816 653.348C530.813 659.314 538.845 662.667 547.308 662.667C563.697 662.667 576.979 649.395 576.979 633.019V62.8439C576.979 51.4799 572.48 40.5866 564.447 32.5532C556.412 24.5092 545.489 19.9999 534.133 19.9999H148.535Z"
                     stroke="#CED8DE"
-                    stroke-width="40"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="40"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </g>
               </g>
@@ -51,16 +51,16 @@ export default function FirstCard() {
         </div>
 
         <div className="m-[20px] flex flex-col justify-around">
-          <p className="text-[15px] font-bold text-black font-sans">
+          <p className="font-sans text-[15px] font-bold text-black">
             {' '}
             Meeting your Colleagues{' '}
           </p>
-          <p className="text-[13px] text-[#999] font-sans">
+          <p className="font-sans text-[13px] text-[#999]">
             {' '}
             6 Video - 40 min{' '}
           </p>
 
-          <div className="mt-[15px] w-[70%] p-[10px] bg-[#e3fff9] rounded-[10px] flex items-center justify-start">
+          <div className="mt-[15px] flex w-[70%] items-center justify-start rounded-[10px] bg-[#e3fff9] p-[10px]">
             <svg
               version="1.1"
               className="w-[17px]"
