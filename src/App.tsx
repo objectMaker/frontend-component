@@ -2,6 +2,7 @@ import Button from 'components/Button'
 import CircleCheckbox from 'components/CircleCheckbox'
 import FirstCard from 'components/FirstCard'
 import Input from 'components/Input'
+import SquareCheckbox from 'components/SquareCheckbox'
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Input />
         <div className="h-5"></div>
         <CircleCheckbox />
+        <div className="h-5"></div>
+        <SquareCheckbox />
       </div>
     </>
   )
