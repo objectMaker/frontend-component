@@ -3,10 +3,11 @@ export default function Button() {
     <div>
       <button
         className="hover:text-shadow-custom flex min-h-9
-      min-w-12 cursor-pointer items-center gap-2 rounded-lg border-none bg-gradient-to-br from-red-600 to-pink-500
-      px-4 py-3 text-[18px] font-bold leading-none tracking-wider text-[#fffd]
-      shadow-inner transition-all duration-75 ease-linear hover:scale-110
-      hover:shadow-sm active:scale-100 active:from-red-500 active:to-pink-400 active:tracking-widest active:shadow-lg
+        min-w-12 cursor-pointer
+      items-center gap-2 rounded-lg border-none bg-gradient-to-br from-red-600 to-pink-500 px-4 py-3
+      text-[18px] font-bold leading-none tracking-wider text-[#fffd] shadow-inner transition-all
+      duration-75 ease-linear hover:scale-110 hover:shadow-sm active:scale-100
+      active:from-red-500 active:to-pink-400 active:tracking-widest active:shadow-lg dark:from-black dark:text-white
       "
       >
         <svg
